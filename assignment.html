@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment</title>
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        button {
+            margin: 5px 0;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        #dynamic-content {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-heading">JavaScript Assignment</h1>
+    <p>Learning JavaScript is fun!</p>
+    
+    <div id="dynamic-content"></div>
+    
+    <h2>Calculator</h2>
+    <button onclick="calculator()">Open Calculator</button>
+    
+    <h2>Greeting</h2>
+    <input type="text" id="username" placeholder="Enter your name">
+    <button onclick="displayGreeting()">Greet</button>
+    <p id="greeting-message"></p>
+    
+    <h2>Voting Eligibility</h2>
+    <button onclick="checkVotingEligibility()">Check Eligibility</button>
+    <p id="vote-message"></p>
+    
+    <h2>Number List</h2>
+    <ol id="number-list" style="list-style-type: lower-roman;"></ol>    
+</body>
+</html>
